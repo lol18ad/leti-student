@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ru.leti.student'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ru.leti.student'
+        minSdk 23
+        targetSdk 35
+        versionCode 30
+        versionName '3.0'
+    }
+}
